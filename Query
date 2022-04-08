@@ -1,3 +1,5 @@
+### Second: Write a query that directly answers a predetermined question from a business stakeholder
+
 SELECT name FROM brands b,
 (SELECT * FROM receipts 
 WHERE totalspent = (SELECT MAX(totalspent) 
